@@ -1,5 +1,11 @@
 # EncapsulatedTLSHandshakeAnalysis
 
+This project involves two Python scripts that pass pcap files through a V2Ray proxy to mimic network traffic, with the goal of determining whether the presence of the proxy can be detected. By comparing traffic before and after passing through the proxy, we aim to identify patterns indicative of proxy usage.
+
+V2Ray: https://www.v2ray.com/en/
+
+Pcap files: https://mawi.wide.ad.jp/mawi/
+
 ## Setting Up V2Ray
 1. Install V2Ray on your machine
 ```
